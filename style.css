@@ -216,3 +216,12 @@ button[type="submit"]:hover {
 .contest-table tbody tr:hover {
   background-color: #ddd;
 }
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
