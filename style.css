@@ -1,0 +1,190 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color or image */
+body {
+  background-color: #f2f2f2;
+  /* background-image: url('your-background-image.jpg'); */
+  font-family: 'Biryani', sans-serif;
+}
+
+a {
+	color: #444;
+}
+
+a:active {
+	color: gray;
+}
+
+/* Container for the main content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 6px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Navigation menu */
+nav {
+  background-color: #444;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style your main content area */
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style buttons */
+button {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style form elements */
+input[type="text"], input[type="submit"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Math-related styling */
+.math-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.math-equation {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Add your custom styles for math symbols and equations */
+
+/* Your existing CSS styles go here */
+
+/* Add new CSS rules for two-column layout */
+.content {
+  display: flex;
+  align-items: flex-start; /* Align the columns at the top */
+  justify-content: space-between;
+  border-right: 2px solid #ccc; /* Add a vertical line as a border */
+}
+
+.problem {
+  width: 70%; /* Adjust the width of the problem column */
+  padding: 20px;
+  overflow: auto; /* Add scrollbars if content exceeds the container */
+  max-height: calc(100vh - 140px); /* Limit the maximum height to the viewport height minus header and footer */
+}
+
+.answer-form {
+  width: 30%; /* Adjust the width of the answer form column */
+  padding: 20px;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    border-right: none;
+  }
+
+  .problem,
+  .answer-form {
+    width: 100%;
+  }
+}
+
+/* Registration form styling */
+.registration-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.registration-form h3 {
+  color: #333;
+  font-size: 24px;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
