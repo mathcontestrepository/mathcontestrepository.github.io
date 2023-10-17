@@ -188,3 +188,31 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
+
+/* Table styling */
+.contest-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.contest-table th, .contest-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.contest-table th {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+.contest-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.contest-table tbody tr:hover {
+  background-color: #ddd;
+}
