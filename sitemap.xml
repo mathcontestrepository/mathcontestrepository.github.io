@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problems</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/contests</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/users</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/about</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/signup</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/login</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problems/search/tags</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problems/m2l</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc22a1</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc21a1</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/cimc22a1</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc22a2</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc21a2</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/quadratic1</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc22a3</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc21a3</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc22a4</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc22b1</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc21a4</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc21b1</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc22a5</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc22b2</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc21a5</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc21a6</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc21b2</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc22a6</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc21b3</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problem/csmc22b3</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/user/kpatel42</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/user/savir</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/user/prequinox</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/user/htoshiro</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/user/rishi</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/user/suprecalamitas</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/user/pear222</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/user/nofriendsintheindustry</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/user/bulletchessking</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problems/search/tags/submit?term=csmc</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problems/search/tags/submit?term=csmc22</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problems/search/tags/submit?term=highschool</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problems/search/tags/submit?term=csmc21</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problems/search/tags/submit?term=cimc</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mathcontestrepository.pythonanywhere.com/problems/search/tags/submit?term=cimc22</loc>
+  <lastmod>2023-10-28T01:40:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
