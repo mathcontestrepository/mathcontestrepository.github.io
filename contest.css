@@ -1,0 +1,80 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Biryani', sans-serif;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #cc0000; /* Dark red color for the title */
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #333;
+    font-size: 18px;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Christmas-themed styles */
+
+.container {
+    position: relative;
+}
+
+.container:before {
+    content: '\2605'; /* Unicode star character */
+    font-size: 100px;
+    color: #ffcc00; /* Yellow color for the star */
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header {
+    position: relative;
+}
+
+.header:before {
+    content: '\1F384'; /* Unicode Christmas tree character */
+    font-size: 60px;
+    color: #228B22; /* Forest green color for the tree */
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+
+.header:after {
+    content: '\1F381'; /* Unicode gift character */
+    font-size: 60px;
+    color: #cc0000; /* Dark red color for the gift */
+    position: absolute;
+    top: -30px;
+    right: 20px;
+}
+
+/* Add more Christmas-themed styles as needed */
+
