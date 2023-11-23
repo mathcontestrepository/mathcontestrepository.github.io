@@ -67,6 +67,9 @@ body {
     left: 20px;
 }
 
+a {
+    color: #414957;
+
 .header:after {
     content: '\1F381'; /* Unicode gift character */
     font-size: 60px;
