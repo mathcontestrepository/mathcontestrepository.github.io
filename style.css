@@ -2,21 +2,32 @@
 body, html {
   margin: 0;
   padding: 0;
+  font-family: 'Biryani', sans-serif;
 }
 
 /* Set a background color or image */
 body {
-  background-color: #f2f2f2;
-  /* background-image: url('your-background-image.jpg'); */
-  font-family: 'Biryani', sans-serif;
+  background-color: #e5dccc;
+  font-size: 16px;
+  color: #333;
 }
 
 a {
-	color: #444;
+  color: #ff6b81;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:visited {
+  color: #d94663;
+}
+
+a:hover {
+  color: #e74c3c;
 }
 
 a:active {
-	color: gray;
+  color: #ff4757;
 }
 
 /* Container for the main content */
@@ -28,16 +39,16 @@ a:active {
 
 /* Header styling */
 header {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
-  padding: 6px;
+  padding: 10px 0;
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 /* Navigation menu */
 nav {
-  background-color: #444;
+  background-color: #111;
   text-align: center;
 }
 
@@ -52,30 +63,37 @@ nav li {
 }
 
 nav a {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #e74c3c;
 }
 
 /* Style your main content area */
 main {
   background-color: #fff;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 /* Style buttons */
 button {
-  background-color: #0074d9;
+  background-color: #e74c3c;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #ff6b81;
 }
 
 /* Style form elements */
@@ -99,33 +117,31 @@ input[type="text"], input[type="submit"] {
 
 /* Footer styling */
 footer {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
   padding: 10px 0;
   text-align: center;
 }
 
-/* Add your custom styles for math symbols and equations */
-
-/* Your existing CSS styles go here */
-
 /* Add new CSS rules for two-column layout */
 .content {
   display: flex;
-  align-items: flex-start; /* Align the columns at the top */
+  align-items: flex-start;
   justify-content: space-between;
-  border-right: 2px solid #ccc; /* Add a vertical line as a border */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .problem {
-  width: 70%; /* Adjust the width of the problem column */
+  width: 70%;
   padding: 20px;
-  overflow: auto; /* Add scrollbars if content exceeds the container */
-  max-height: calc(100vh - 140px); /* Limit the maximum height to the viewport height minus header and footer */
+  max-height: calc(100vh - 140px);
+  overflow: auto;
 }
 
 .answer-form {
-  width: 30%; /* Adjust the width of the answer form column */
+  width: 30%;
   padding: 20px;
 }
 
@@ -133,7 +149,7 @@ footer {
 @media screen and (max-width: 768px) {
   .content {
     flex-direction: column;
-    border-right: none;
+    border: none;
   }
 
   .problem,
@@ -145,9 +161,9 @@ footer {
 /* Registration form styling */
 .registration-form {
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
@@ -177,16 +193,17 @@ footer {
 }
 
 button[type="submit"] {
-  background-color: #0074d9;
+  background-color: #e74c3c;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #ff6b81;
 }
 
 /* Table styling */
@@ -205,7 +222,7 @@ button[type="submit"]:hover {
 }
 
 .contest-table th {
-  background-color: #0074d9;
+  background-color: #e74c3c;
   color: #fff;
 }
 
@@ -223,5 +240,10 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
   font-size: 16px;
-  resize: vertical; /* Allow vertical resizing of the textarea */
+  resize: vertical;
+  transition: border-color 0.3s ease-in-out;
+}
+
+textarea:focus {
+  border-color: #e74c3c;
 }
