@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution for potw1 | Math Contest Repository Solutions</title>
+  <link rel="icon" href="https://mathcontestrepository.github.io/whitelogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&display=swap" rel="stylesheet">
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <style>
+        body {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        .solution {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="solution">
+    <h2>Solution for <a style="color: black" href="https://mathcontestrepository.pythonanywhere.com/problem/potw1">potw1</a>:</h2>
+    <p><b>You're reading an official <a style="color:black" href="https://repository.pythonanywhere.com">MCR</a> solution.</b></p>
+    <p>Consider the equation \(2^a \times 5^b = c^2\), where \(a\), \(b\), and \(c\) are positive integers with \(a, b, c ≤ 100\).</p>
+    <p>Let's analyze the given equation \(2^a \times 5^b = c^2\).</p>
+    <p>First, observe that \(c^2\) is a perfect square, and any perfect square can be expressed as a product of prime factors, each raised to an even power. Therefore, both \(2\) and \(5\) must appear in the prime factorization of \(c^2\), and their exponents must be even.</p>
+    <p>Let \(a = 2m\) and \(b = 2n\) for some positive integers \(m\) and \(n\). Now, the equation becomes:</p>
+    <p>\(2^{2m} \times 5^{2n} = c^2\)</p>
+    <p>Simplifying this, we get:</p>
+    <p>\((2^m \times 5^n)^2 = c^2\)</p>
+    <p>This implies that \(c = 2^m \times 5^n\).</p>
+    <p>Now, let's consider the ranges of \(m\) and \(n\). Since \(a, b ≤ 100\), we have \(2m ≤ 100\) and \(2n ≤ 100\), which implies \(m ≤ 50\) and \(n ≤ 50\).</p>
+    <p>So, there are \(50\) possible values for \(m\) (from \(1\) to \(50\)) and \(50\) possible values for \(n\) (from \(1\) to \(50\)). For each pair of \(m\) and \(n\), we can compute \(c = 2^m \times 5^n\) and count how many distinct values we obtain.</p>
+    <p>Therefore, the total number of distinct positive integer triples \((a, b, c)\) satisfying the equation is \(50 \times 50 = 2500\).</p>
+</div>
+
+</body>
+</html>
