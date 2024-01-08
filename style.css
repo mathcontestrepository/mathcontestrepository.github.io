@@ -143,6 +143,9 @@ nav {
 @media (max-width: 768px) {
   nav {
     display: none;
+}
+  .nav2 {
+    display: block;
   }
 
   .mobile-toggle {
@@ -156,4 +159,7 @@ nav {
   main {
     padding: 20px;
   }
+  .header2 {
+    display: block;
+}
 }
