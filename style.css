@@ -51,7 +51,6 @@ header {
 }
 
 nav {
-  position: fixed;
   background-color: #444;
   width: 200px;
   display: flex;
@@ -137,7 +136,6 @@ nav {
 @media (min-width: 769px) {
   nav {
     display: flex;
-    position: fixed;
     flex-direction: column;
     align-items: center;
     background-color: #444;
