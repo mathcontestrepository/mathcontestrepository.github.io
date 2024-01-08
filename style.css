@@ -1,15 +1,6 @@
-/* Reset some default styles */
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto Slab', serif;
-}
-
-/* Set a background color or image */
 body {
-  background-color: #e5dccc;
-  font-size: 16px;
-  color: #333;
+  margin: 0;
+  font-family: 'Roboto Slab', sans-serif;
 }
 
 a {
@@ -24,57 +15,6 @@ a:hover {
 
 a:active {
   color: #ff4757;
-}
-
-/* Container for the main content */
-.container {
-  /*max-width: 1200px;*/
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Header styling */
-header {
-  background-color: #000;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-  font-size: 28px;
-}
-
-/* Navigation menu */
-nav {
-  background-color: #111;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-  margin: 0 10px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-}
-
-nav a:hover {
-  color: #e74c3c;
-}
-
-/* Style your main content area */
-main {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.3s ease-in-out;
 }
 
 /* Style buttons */
@@ -100,146 +40,120 @@ input[type="text"], input[type="submit"] {
   border-radius: 3px;
 }
 
-/* Math-related styling */
-.math-container {
-  text-align: center;
-  margin-top: 20px;
+.container {
+  display: flex;
+  min-height: 100vh;
 }
 
-.math-equation {
-  font-size: 24px;
+header {
+
+  padding: 2em;
+}
+
+nav {
+  background-color: #444;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
   margin-bottom: 10px;
 }
 
-/* Footer styling */
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
 footer {
-  background-color: #000;
-  color: #fff;
-  padding: 10px 0;
+  background-color: #333;
+  color: white;
   text-align: center;
+  padding: 1em;
 }
 
-/* Add new CSS rules for two-column layout */
-.content {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
+/* Sidebar Icon Styling */
+nav i {
+  font-size: 1.2em;
+  margin-right: 8px;
 }
 
-.problem {
-  width: 70%;
-  padding: 20px;
-  max-height: calc(100vh - 140px);
-  overflow: auto;
+/* Navbar Pressed-down Effect */
+nav a:active {
+  transform: translateY(2px);
 }
 
-.answer-form {
-  width: 30%;
-  padding: 20px;
-}
-
-/* Media query for responsive design */
-@media screen and (max-width: 768px) {
-  .content {
-    flex-direction: column;
-    border: none;
-  }
-
-  .problem,
-  .answer-form {
-    width: 100%;
+/* Navbar Pressed-down Effect on Mobile */
+@media (max-width: 768px) {
+  nav a:active {
+    transform: none;
   }
 }
 
-/* Registration form styling */
-.registration-form {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
+
+/* Hide sidebar by default */
+nav {
+  display: none;
 }
 
-.registration-form h3 {
-  color: #333;
-  font-size: 24px;
-}
-
-.form-group {
-  margin: 15px 0;
-}
-
-.form-group label {
-  display: block;
-  text-align: left;
-  font-weight: bold;
-}
-
-.form-group input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  font-size: 16px;
-}
-
-button[type="submit"] {
-  background-color: #e74c3c;
-  color: #fff;
-  padding: 10px 20px;
+/* Style mobile toggle button */
+.mobile-toggle {
+  display: none;
+  background-color: #444;
+  color: white;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-button[type="submit"]:hover {
-  background-color: #ff6b81;
-}
-
-/* Table styling */
-.contest-table {
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 16px;
-}
-
-.contest-table th, .contest-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.contest-table th {
-  background-color: #e74c3c;
-  color: #fff;
-}
-
-.contest-table tbody tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-.contest-table tbody tr:hover {
-  background-color: #ddd;
-}
-
-textarea {
-  width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  font-size: 16px;
-  resize: vertical;
-  transition: border-color 0.3s ease-in-out;
+  cursor: pointer;
 }
 
-textarea:focus {
-  border-color: #e74c3c;
+/* Display sidebar for wider screens and hide toggle button */
+@media (min-width: 769px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+    width: 200px;
+  }
+
+  .mobile-toggle {
+    display: none;
+  }
+}
+
+/* Display toggle button for smaller screens and hide sidebar */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 20px;
+  }
 }
