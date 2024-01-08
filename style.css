@@ -171,3 +171,79 @@ nav {
     display: block;
 }
 }
+
+/* Table styling */
+.contest-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.contest-table th, .contest-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.contest-table th {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.contest-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.contest-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  resize: vertical;
+  transition: border-color 0.3s ease-in-out;
+}
+
+textarea:focus {
+  border-color: #e74c3c;
+}
+
+/* Registration form styling */
+.registration-form {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.registration-form h3 {
+  color: #333;
+  font-size: 24px;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
