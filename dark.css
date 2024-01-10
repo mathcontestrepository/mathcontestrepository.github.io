@@ -309,3 +309,7 @@ textarea:focus {
   position: relative;
   top: 1px;
 }
+
+img {
+  filter: invert(88.24%);
+}
