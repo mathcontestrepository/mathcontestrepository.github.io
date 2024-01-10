@@ -313,3 +313,7 @@ textarea:focus {
 img {
   filter: invert(88.24%);
 }
+
+.mark {
+  filter: invert(0%);
+}
