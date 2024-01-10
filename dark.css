@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+a {
+  color: #9f5f80;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #e74c3c;
+}
+
+a:active {
+  color: #ff4757;
+}
+
+/* Style buttons */
+button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff6b81;
+}
+
+/* Style form elements */
+input[type="text"], input[type="submit"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #555;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+header {
+  padding: 2em;
+}
+
+nav {
+  background-color: #333;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Sidebar Icon Styling */
+nav i {
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+
+/* Navbar Pressed-down Effect */
+nav a:active {
+  transform: translateY(2px);
+}
+
+/* Navbar Pressed-down Effect on Mobile */
+@media (max-width: 768px) {
+  nav a:active {
+    transform: none;
+  }
+}
+
+/* Header styling */
+.header2 {
+  display: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 28px;
+}
+
+/* Hide sidebar by default */
+nav {
+  display: none;
+}
+
+/* Style mobile toggle button */
+.mobile-toggle {
+  display: none;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Display sidebar for wider screens and hide toggle button */
+@media (min-width: 769px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    width: 200px;
+  }
+
+  .mobile-toggle {
+    display: none;
+  }
+}
+
+/* Display toggle button for smaller screens and hide sidebar */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .nav2 {
+    display: block;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 20px;
+  }
+  .header2 {
+    display: block;
+  }
+}
+
+/* Table styling */
+.contest-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #fff;
+}
+
+.contest-table th, .contest-table td {
+  border: 1px solid #555;
+  padding: 8px;
+  text-align: left;
+}
+
+.contest-table th {
+  background-color: #e74c3c;
+}
+
+.contest-table tbody tr:nth-child(even) {
+  background-color: #2c2c2c;
+}
+
+.contest-table tbody tr:hover {
+  background-color: #444;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 3px;
+  font-size: 16px;
+  resize: vertical;
+  transition: border-color 0.3s ease-in-out;
+  background-color: #333;
+  color: #fff;
+}
+
+textarea:focus {
+  border-color: #e74c3c;
+}
+
+/* Registration form styling */
+.registration-form {
+  background-color: #2c2c2c;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.registration-form h3 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 3px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Custom checkbox styling */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  font-family: 'Roboto Slab', sans-serif;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.checkbox-input {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #e74c3c;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.checkbox-input:checked {
+  background-color: #e74c3c;
+}
+
+.checkbox-input:focus {
+  border-color: #ff6b81;
+}
+
+/* Hide default checkbox */
+.checkbox-input::-webkit-check-mark {
+  display: none;
+}
+
+/* Style checked state */
+.checkbox-input:checked::before {
+  content: '\2713';
+  display: block;
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 16px;
+  background-color: #ff6b81;
+  border-radius: 3px;
+  position: relative;
+  top: 1px;
+}
