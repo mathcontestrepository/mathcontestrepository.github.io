@@ -317,3 +317,78 @@ img {
 .mark {
   filter: invert(0%);
 }
+
+/* News Post Styles */
+.news-post {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.news-post h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.news-post p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.news-post a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.news-post a:hover {
+  color: #2980b9;
+}
+
+.news-post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Additional Styling for News Post List */
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  margin: 0;
+}
+
+.news-list-item:last-child {
+  border-bottom: none;
+}
+
+.news-list-item h3 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.news-list-item p {
+  margin: 10px 0;
+  color: #edfbff;
+}
+
+.news-list-item a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.news-list-item a:hover {
+  color: #2980b9;
+}
