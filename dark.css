@@ -35,7 +35,7 @@ button:hover {
 }
 
 /* Style form elements */
-input[type="text"], input[type="submit"] {
+input[type="submit"] {
   padding: 10px;
   margin: 5px;
   border: 1px solid #555;
