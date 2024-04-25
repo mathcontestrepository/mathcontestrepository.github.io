@@ -376,3 +376,9 @@ textarea:focus {
 .news-list-item a:hover {
   color: #2980b9;
 }
+
+select {
+            padding: 5px 10px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
