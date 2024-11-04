@@ -46,7 +46,7 @@ input[type="submit"] {
 }
 
 header {
-
+  position: fixed;
   padding: 2em;
 }
 
@@ -60,6 +60,8 @@ nav {
 
 nav ul {
   list-style: none;
+  position: fixed;
+  top: 10em;
   padding: 0;
 }
 
