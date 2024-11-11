@@ -154,6 +154,9 @@ nav {
   nav {
     display: none;
 }
+  header {
+    display: none;
+  }
   .nav2 {
     display: block;
   }
